@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Result</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/results.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap" rel="stylesheet">
+<script src="{{ url_for('static', filename='js/result.js') }}" defer></script>
+</head>
+<body>
+
+<div class="modal">
+  <div class="modal-header">
+    <h2>Congratulations!</h2>
+  </div>
+  <div class="modal-body">
+    <div class="score">Your quiz score is: <span id="finalScore">{{ final_score }}</span> out of <span id="quizLength">{{ quiz_length }}</span></div>
+    <div class="circle-progress-container"></div>
+    <div class="message">You've completed the quiz.<br>Click on Finish to redirect back to the home page.</div>
+    <button class="button" onclick="window.location.href='/quiz'">Retake</button>
+    <button class="button" onclick="window.location.href='/'">Finish</button>
+  </div>
+</div>
+
+</body>
+</html>

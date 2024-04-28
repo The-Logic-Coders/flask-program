@@ -30,6 +30,7 @@ If git is successfully installed, you should see the installed version number.
 | :----- | :----- |
 | 0 | Introduction to Flask and Setting Up the Development Environment |
 | 1 | Basic of Flask: Routes and Views |
-| 2 | Templates and Static Files: Creating Quiz Layout |
-| 3 | Form Handling and User Input |
-| 4 | Project - Building A Quiz Game |
+| 2 | Basic of Flask: Templates|
+| 3 | Project - Building A Quiz Game I - Form Handling and Database Reading |
+| 4 | Project - Building A Quiz Game II - Managing Quiz Logic|
+| 5 | Project - Building A Quiz Game III - Routing with Flask |

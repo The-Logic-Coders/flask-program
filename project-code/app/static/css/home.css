@@ -1,0 +1,87 @@
+body {
+    overflow:hidden;
+    background-color: #fedbd0;
+}
+
+
+
+.modal-header {
+    background-color: transparent;
+    text-align: center;
+    color: inherit
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+label.btn {
+    padding: 18px 60px;
+    white-space: normal;
+    transform: scale(1.0);
+    transition-duration: .3s;
+    background: #cab9a7;
+    border-color: transparent;
+
+}
+
+button.btn.btn-lg.btn-primary.btn-block {
+    background: #cab9a7;
+    border-color: transparent;
+}
+
+button.btn.btn-lg.btn-primary.btn-block:hover {
+    background: #a67b5b;
+    border-color: transparent;
+}
+
+.element-animation1 {
+    animation: animationFrames ease .8s;
+    animation-iteration-count: 1;
+    transform-origin: 50% 50%;
+    -webkit-animation: animationFrames ease .8s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;
+    -ms-animation: animationFrames ease .8s;
+    -ms-animation-iteration-count: 1;
+    -ms-transform-origin: 50% 50%
+}
+
+.logo {
+    width: 18em; 
+    height: auto; 
+}
+
+.modal-content {
+    font-family: 'Lexend', sans-serif;
+}
+
+.footer-image {
+    position: fixed;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    width: 9em;
+    height: auto; 
+}
+
+
+label.btn:hover {
+    text-shadow: 0 3px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+    background-color: #a67b5b;
+    border-color: transparent;
+}
+
+.file-uploaded {
+    border: none;
+    background-color: #f8f9fa; 
+    color: #343a40; 
+}
+
+#excel-icon {
+    color: #217346;
+}
