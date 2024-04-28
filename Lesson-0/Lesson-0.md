@@ -3,7 +3,7 @@
 ## Learning Objectives
 - Understand what Flask framework is and what it's used for.
 - Set up the python development environment for Flask.
-- Create a basic web application.
+- 
 
 ## What is Flask?
 Flask is a lightweight and flexible web framework for Python. It’s designed to make getting started with web development quick and easy, while still being powerful enough to build complex web applications.
@@ -43,6 +43,10 @@ python3 hello.py
 ```
 
 Open a web browser (Google Chrome) and go to `localhost:5000/` to see if the Flask application is running correctly. If it is running correctly, you'll see something like this:
+
+<img width="700" alt="ss1" src="https://github.com/The-Logic-Coders/flask-program/assets/115064816/7acc2d08-08f2-4774-a8d4-8c9c8cab74c4">
+<img width="700" alt="ss1" src="https://github.com/The-Logic-Coders/flask-program/assets/115064816/53fb57a8-7acd-4abb-98ac-ebe35cb178b7">
+
 
 
 
