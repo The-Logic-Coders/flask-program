@@ -11,8 +11,19 @@ Welcome to python-flask-website-building wiki!
 ## Learning Objectives
 This course will cover the essentials of building a quiz game using the Flask web framework. It includes step-by-step guides for setting up a Flask environment, creating web routes and handling user inputs. 
 
+## Getting Started
+Follow the instructions below to install Git on Windows. This is required before proceeding with the course.
+1.  Go to the official Git website: [Git Downloads for Windows](https://git-scm.com/download/win).
+2. Click on the download link for Windows (64-bit) and run the installer.
+3. Follow the installation wizard instructions. Use default settings for the installation. (Ask your instructor for assistance.)
+4. Once the installation is completed, verify the installation on Visual Studio Code terminal by typing:
+```bash
+git version
+```
+If git is successfully installed, you should see the installed version number.
+
 ## Course Outline 
-> Note: Prior Python knowledge is recommended. Ensure you have Python and Flask installed before starting Lesson 1.
+> Note: Prior Python knowledge is recommended. Ensure you have Python and Git installed before starting Lesson 0.
 - Lessons will primarily be conducted using a local development environment like Visual Studio Code.
 
 | **Lesson** | **Topic** |
