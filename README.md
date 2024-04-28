@@ -1,6 +1,9 @@
 # Introduction to Flask Website Building
 Welcome to python-flask-website-building wiki!
 
+<img src="https://github.com/The-Logic-Coders/flask-program/assets/115064816/608e26e9-8ce0-461c-b3fa-f95e380a2e68" width="300" height="300">
+
+
 ## Scope of Learning
 **Goal:** To give a foundational understanding of Flask and Website Building  
 **Duration:** 6 lessons (2 hours per lesson)
